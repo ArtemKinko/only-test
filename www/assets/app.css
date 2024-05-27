@@ -1,0 +1,33 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.column {
+    display: grid;
+}
+
+.row {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.warning {
+    color: darkred;
+}
+
+.success {
+    color: green;
+}
+
+a {
+    margin-bottom: 10px;
+}
